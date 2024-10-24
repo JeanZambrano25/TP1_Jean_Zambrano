@@ -1,0 +1,68 @@
+/* src/App.css */
+/* src/App.css */
+.app {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(123, 85, 160);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+}
+
+.music-player {
+  margin: 0 auto;
+}
+
+.cover-container {
+  margin-bottom: 10px;
+}
+
+.cover-image {
+  width: 200px; /* Ajusta el tamaño según tus necesidades */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.playlist {
+  margin: 20px;
+}
+
+.playlist ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.playlist li {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.playlist li:hover {
+  background-color: #8b089c;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.progress-container,
+.volume-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.progress-container span,
+.volume-container label {
+  margin: 0 10px;
+}
+
+input[type="range"] {
+  width: 300px;
+}
