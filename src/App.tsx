@@ -15,13 +15,13 @@ const App: React.FC = () => {
     const [currentSongIndex, setCurrentSongIndex] = useState(0);
 
     const songs: Song[] = [
-        { title: 'Brickell', artist: 'Feid, Yandel', cover: '../public/imagen/feid.jpeg', src: '../public/musicas/Feid, Yandel - Brickell.mp3' },
-        { title: 'Si antes te hubieras ido', artist: 'Karol G', cover: '../public/imagen/karol.jpeg', src: '../public/musicas/KAROL G - Si Antes Te Hubiera Conocido.mp3' },
-        { title: 'El merengue', artist: 'Marshmello, Manuel Turizo', cover: '../public/imagen/mt.jpg', src: '../public/musicas/Marshmello, Manuel Turizo - El Merengue.mp3' },
-        { title: 'Aguardiente', artist: 'Los Terribles Diamantes', cover: '../public/imagen/Los-terribles-diamantes-de-valencia.jpg', src: '../public/musicas/Los Terribles Diamantes de Valencia - Aguardiente.mp3' },
-        { title: 'Como Te Estoy Queriendo', artist: 'Los Terribles Diamantes', cover: '../public/imagen/Los-terribles-diamantes-de-valencia.jpg', src: '../public/musicas/Los Terribles Diamantes de Valencia - Como Te Estoy Queriendo.mp3' },
-        { title: 'Mix Cuartetazo - La Arañita de Martita', artist: 'Orq. Tropicalisima', cover: '../public/imagen/Tropicalisima.jpg', src: '../public/musicas/Orquesta Tropicalisima - Mix Cuartetazo- La Arañita de Martita, Vol. 5.mp3' },
-        { title: 'Che Che', artist: 'Chimbala', cover: '../public/imagen/che-che.jpg', src: '../public/musicas/Chimbala - Che Che.mp3' },
+        { title: 'Brickell', artist: 'Feid, Yandel', cover: '/imagen/feid.jpeg', src: '/musicas/Feid, Yandel - Brickell.mp3' },
+        { title: 'Si antes te hubieras ido', artist: 'Karol G', cover: '/imagen/karol.jpeg', src: '/musicas/KAROL G - Si Antes Te Hubiera Conocido.mp3' },
+        { title: 'El merengue', artist: 'Marshmello, Manuel Turizo', cover: '/imagen/mt.jpg', src: '/musicas/Marshmello, Manuel Turizo - El Merengue.mp3' },
+        { title: 'Aguardiente', artist: 'Los Terribles Diamantes', cover: '/imagen/Los-terribles-diamantes-de-valencia.jpg', src: '/musicas/Los Terribles Diamantes de Valencia - Aguardiente.mp3' },
+        { title: 'Como Te Estoy Queriendo', artist: 'Los Terribles Diamantes', cover: '/imagen/Los-terribles-diamantes-de-valencia.jpg', src: '/musicas/Los Terribles Diamantes de Valencia - Como Te Estoy Queriendo.mp3' },
+        { title: 'Mix Cuartetazo - La Arañita de Martita', artist: 'Orq. Tropicalisima', cover: '/imagen/Tropicalisima.jpg', src: '/musicas/Orquesta Tropicalisima - Mix Cuartetazo- La Arañita de Martita, Vol. 5.mp3' },
+        { title: 'Che Che', artist: 'Chimbala', cover: '/imagen/che-che.jpg', src: '/musicas/Chimbala - Che Che.mp3' },
     ];
 
     const handleNextSong = () => {

@@ -12,6 +12,7 @@
 
 .music-player {
   margin: 0 auto;
+  color: white;
 }
 
 .cover-container {
@@ -27,6 +28,7 @@
 
 .playlist {
   margin: 20px;
+  color: white;
 }
 
 .playlist ul {
